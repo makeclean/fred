@@ -9,7 +9,7 @@
 
 #include "InflowBC.h"
 
-registerMooseObject("fred", InflowBC);
+registerMooseObject("fredApp", InflowBC);
 
 InputParameters
 InflowBC::validParams()
